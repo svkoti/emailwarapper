@@ -16,8 +16,6 @@ npm install
 Usage
 -----
 npm start
-MailService will return a Promise.
-
 
 Testing
 -------
@@ -33,5 +31,7 @@ npm test
 TODO
 ----
 
-- add to send attachments
-- add to send HTML/plain content
+- Payload validation based on route options and a model class
+- unit test cases for all scenarios
+- validations: mail, to list count ewtc.
+- authentication: interrceptor plugin to authenticate token
