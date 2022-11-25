@@ -1,0 +1,37 @@
+{
+  "name": "NodeJS Email Wrapper",
+  "version": "0.0.1",
+  "description": "Email abstraction with mailgun and sendgrid as email service providers",
+  "repository": {
+    "url": "https://github.com/nnmer/email-service"
+  },
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "send email"
+  ],
+  "author": "Siva Kota<sv.koti@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mailgun-js": "^0.9.0",
+    "sendgrid": "^4.8.4",
+    "@hapi/boom": "^9.1.0",
+    "@hapi/hapi": "^20.0.0",
+    "@hapi/joi": "^17.1.1"
+  },
+  "devDependencies": {
+    "dotenv-safe": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.2",
+    "jest": "^27.0"
+  }
+}
